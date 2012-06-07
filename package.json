@@ -1,0 +1,40 @@
+{
+  "name": "PhotoAlbum",
+  "description": "jquery image viewer / photo album",
+  "version": "1.0.0",
+  "keywords": [
+    "jquery",
+    "images",
+    "javascript",
+    "jscript",
+    "html5",
+    "image viewer"
+  ],
+  "maintainers": [
+    {
+      "name": "TanyaWebDesign",
+      "email": "tanyawebdesign@gmail.com",
+      "web": "http://ycode.com/Tanya/portfolio/portfolio.html"
+    }
+  ],
+  "demos": [
+    "http://www.ycode.com/Tanya/photo_album/album.html"
+  ],
+  "dependencies": {
+    "jquery": "1.4.2",
+    "jquery-ui": "1.8.20"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/TanyaWebDesign/PhotoAlbum.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "Apache License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0 "
+    }
+  ],
+  "homepage": "http://www.ycode.com/Tanya/photo_album/main.html"
+}
