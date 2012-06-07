@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Photo Album</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type = "text/javascript"></script>
+    <script src="js/jquery.effects.core.js"></script>
+    <script src="js/jquery.effects.slide.js"></script>
+    <script src="js/jquery.effects.blind.js"></script>
+    <script src="js/jquery.ui.core.js"></script>
+    <script src="js/jquery-ui-1.8.20.custom.js"></script>
+    <script type="text/javascript" src="js/jquery_photoalbum.js"></script>
+  
+    <script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" /> 
+    <script type="text/javascript">
+    
+    $(document).ready(function () { 
+      var aImages = [ "img/odessa1.jpg", "img/odessa3.jpg", "img/odessa4.jpg", "img/odessa6.jpg", 
+                "img/odessa14.jpg","img/odessa15.jpg","img/odessa7.jpg",
+                "img/odessa8.jpg", "img/odessa9.jpg", "img/odessa10.jpg", "img/odessa11.jpg", "img/odessa12.jpg",
+                "img/odessa13.jpg"];
+      $( "#album" ).photo_album( aImages );
+     });
+
+     </script>
+
+      <link rel="stylesheet" type="text/css" href="css/jquery_photoalbum.css">
+ </head>
+  
+  <body>
+    <div id = "album" >
+     </div>
+  </body>
+  
+  </html>
